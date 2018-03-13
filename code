@@ -1,0 +1,12 @@
+from random import randint
+
+def RandomNumbers(n,A):
+	A = [0] * n
+
+	for i in range (n):
+		A [i] = randint(0,999999999)
+	print(A)
+	return A
+
+A = []
+RandomNumbers(100,lista)
