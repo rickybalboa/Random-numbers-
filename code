@@ -9,4 +9,4 @@ def RandomNumbers(n,A):
 	return A
 
 A = []
-RandomNumbers(100,lista)
+RandomNumbers(100,A)
